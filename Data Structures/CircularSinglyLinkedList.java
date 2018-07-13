@@ -29,7 +29,7 @@ public class CircularSinglyLinkedList<E> {
 
     public void empty() {
         head = tail = null;
-
+        size=0;
     }
 
     public boolean isEmpty() {
