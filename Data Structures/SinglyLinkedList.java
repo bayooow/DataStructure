@@ -29,6 +29,7 @@ public class SinglyLinkedList<E> {
 
     public void empty() {
         head = null;
+        size=0;
     }
 
     public boolean isEmpty() {
