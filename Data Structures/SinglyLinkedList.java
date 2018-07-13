@@ -102,8 +102,7 @@ public class SinglyLinkedList<E> {
     // remove node that containing the data
     public void remove(E data) {
         if (!isEmpty()) {
-            Node pointer = head;
-            Node pointerNext = head.next;
+            Node pointer = head;            
             if (pointer.data == data) {
                 removeFirst();
             } else {
